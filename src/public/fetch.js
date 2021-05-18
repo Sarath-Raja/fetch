@@ -9,7 +9,7 @@ fetch("https://reqres.in/api/users", {
 })
     .then(res => {
         // Fetch doesn't fail and go to error block until an network error happens
-        // So we use res.ok to deterimint if the call is success/failure
+        // So we use res.ok to deterimine if the call is success/failure
         // Status codes 200-299 are considered as success
         if(res.ok)
             console.log('Success', res.status)
